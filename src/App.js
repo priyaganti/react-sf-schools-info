@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './school.jpg';
+import logo from './images/school.jpg';
+import Schools from './Schools.js';
 
 class App extends Component {
   constructor(){
@@ -14,6 +15,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">San Francisco Schools</h1>
         </header>
+        <Schools />
       </div>
     );
   }
