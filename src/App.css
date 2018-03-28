@@ -23,3 +23,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*** CSS Grid ***/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; // represents a 4-column grid
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  text-align: center;
+}
+
+.boldName {
+  font-size: 20px;
+}
