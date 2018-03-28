@@ -21,10 +21,24 @@ class Schools extends Component {
       });
   }
 
-  render() {
-    return ();
-  }
 
+  /* schools is a single array of objects.
+   * Each object in it is an individual school which has various fields
+   */
+  render() {
+    const { schools } = this.state;
+      return(
+        <div className='grid-container'>
+          {schools.map(function(school, index) {
+            return (<div className='grid-item'>
+                      <p key={ index } className='boldName'>{school.campusName}</p>
+                      <p>Grade Range: {school.gradeRange}</p>
+                    </div>
+                   );
+          })}
+        </div>
+      );
+    }
 }
 
 export default Schools;
