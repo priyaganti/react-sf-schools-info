@@ -68,3 +68,16 @@ li a {
 li a:hover {
  background-color: #111;
 }
+
+
+/*** Labels ***/
+
+.label {
+    color: white;
+    padding: 8px;
+    font-family: Arial;
+    left:120px;
+}
+.midGreen {background-color: #4CAF50;}
+.preBlue {background-color: #2196F3;}
+.midMidOrange {background-color: #ff9800;}
