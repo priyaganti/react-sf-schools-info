@@ -9,8 +9,8 @@ class Header extends React.Component {
           <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/pre'>Pre Schools</Link></li>
-            <li><Link to='/elemntary'>Elemntary Schools</Link></li>
-            <li><Link to='/middle'>Middle Schools</li>
+            <li><Link to='/elemntary'>Elementary Schools</Link></li>
+            <li><Link to='/middle'>Middle Schools</Link></li>
             <li><Link to='/high'>High Schools</Link></li>
             <li><Link to='/college'>Colleges</Link></li>
           </ul>
