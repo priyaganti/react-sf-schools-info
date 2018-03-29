@@ -14,7 +14,7 @@ class HighSchools extends Component {
    * Set the state with the obtained results.
   */
   componentDidMount() {
-    fetch('http://localhost:3000/schools?gradeRange=9-12&gradeRange=K-12')
+    fetch('http://localhost:3000/schools?gradeRange=7-12&gradeRange=9-12&gradeRange=K-12')
       .then(results => results.json())
       .then((data) => {this.setState({highSchools: data});
             console.log('the retreived data is: ' + JSON.stringify(data));
