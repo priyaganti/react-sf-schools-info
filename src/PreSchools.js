@@ -14,7 +14,7 @@ class PreSchools extends Component {
    * Set the state with the obtained results.
   */
   componentDidMount() {
-    fetch('http://localhost:3000/schools?gradeRange=PK-TK&gradeRange=PK-K&gradeRange=PK-4&gradeRange=PK-5&gradeRange=PK-8')
+    fetch('http://localhost:3000/schools?gradeRange=PK&gradeRange=PK-TK&gradeRange=PK-K&gradeRange=PK-4&gradeRange=PK-5&gradeRange=PK-8')
       .then(results => results.json())
       .then((data) => {this.setState({preSchools: data});
             console.log('the retreived data is: ' + JSON.stringify(data));
